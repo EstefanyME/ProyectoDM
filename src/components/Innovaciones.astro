@@ -1,0 +1,170 @@
+---
+import { Image } from 'astro:assets';
+import controlWii from '../assets/controlwii.webp';
+import pantallatactil from '../assets/nintendodspantalla.jpg';
+import VR from '../assets/labo.png';
+import asimetrico from '../assets/wiiucontrol.jpg';
+import portabilidad from '../assets/portabilidad.jpeg';
+import movimiento from '../assets/WiiSports.jpeg';
+import amiibo from '../assets/amiibo.webp';
+import nlabo from '../assets/nintendolabo.jpeg';
+import voz from '../assets/voz.jpeg';
+import nintendolabo from '../assets/nintendolabo.mp4';
+import amiibos from '../assets/amiibos.mp4';
+
+interface Props {
+	
+}
+
+const {  } = Astro.props;
+---
+<div id="innovaciones" class="flex flex-col items-center p-16">
+    <h1 class="text-2xl font-bold text-center my-3">Innovaciones en jugabilidad</h1>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={controlWii}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Controladores revolucionarios</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">El controlador Nintendo Entertainment System (NES) introdujo un diseño estándar de controlador que se convirtió en un referente en la industria.
+            El Nintendo 64 trajo el primer controlador con un stick analógico, que permitía una mayor precisión en la jugabilidad.
+            El Wii Remote y el Nunchuk permitieron un control de movimiento preciso y dieron origen a juegos como "Wii Sports" y "Wii Fit".</p>  
+        </div>
+        
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={pantallatactil}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Pantalla táctil</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">La consola Nintendo DS introdujo una pantalla táctil en la parte inferior, que abrió la puerta a nuevos tipos de juegos y mecánicas de juego, como el uso de lápices táctiles.</p>  
+        </div>
+        
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={VR}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Realidad Virtual</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">Aunque no es la primera incursión de Nintendo en la realidad virtual, el Nintendo Labo VR Kit ofreció una experiencia de RV accesible y creativa utilizando cartón.</p>  
+        </div>
+        
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={asimetrico}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Juegos asimétricos</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">La Wii U presentó el concepto de juego asimétrico, donde un jugador podía usar el GamePad con pantalla táctil de manera diferente a los otros jugadores en la televisión. Esto permitió nuevas experiencias multijugador.</p>  
+        </div>
+        
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={portabilidad}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Portabilidad y versatilidad</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">La Nintendo Switch es una consola híbrida que se puede usar tanto en el televisor como en modo portátil. Esta versatilidad ha redefinido cómo y cuándo se juegan los juegos.</p>  
+        </div>  
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={movimiento}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Controles por movimiento</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">La serie de juegos "Wii Sports" popularizó los controles por movimiento, permitiendo a los jugadores participar activamente en deportes virtuales.</p>  
+        </div>  
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={amiibo}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Amiibo</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">Los Amiibo son figuras coleccionables que se pueden utilizar para desbloquear contenido en juegos compatibles, loos amiibos añaden una dimensión física a la jugabilidad.</p>  
+        </div>  
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={nlabo}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Nintendo Labo</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">Nintendo Labo es una serie de kits que combinan la construcción de objetos de cartón con la interacción de software. Los kits permiten a los jugadores crear sus propios dispositivos y usarlos en juegos específicos.</p>  
+        </div>  
+    </div>
+    <div class="sm:flex sm:flex-col md:flex md:flex-row p-8 gap-8">
+        <div class="sm:w-full md:w-1/5">
+            <Image
+            class="h-auto max-w-full rounded-lg"
+            src={voz}
+            alt="Nintendo gamecube."
+            />
+        </div>
+        <div class="sm:w-full md:w-4/5">
+           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Control por voz</h3>
+           <p class="text-base font-normal text-gray-900 dark:text-white">En juegos como "Hey! Pikmin" y "Zelda: Breath of the Wild," los jugadores pueden utilizar comandos de voz para interactuar con los personajes y el entorno del juego.</p>  
+        </div>  
+    </div>
+    <div class="sm:flex sm:flex-col p-8 gap-8">
+        <h1 class="flex items-center mb-1 text-2xl md:text-3xl self-center font-semibold text-gray-900 dark:text-white">
+            Nintendo Labo
+        </h1>
+        <video width="700"
+        height="415" controls>
+            <source src={nintendolabo} type="video/mp4">
+            Nintendo Labo
+          </video>
+    </div>
+    <div class="sm:flex sm:flex-col p-8 gap-8">
+        <h1 class="flex items-center mb-1 text-2xl md:text-3xl self-center font-semibold text-gray-900 dark:text-white">
+            Amiibos
+        </h1>
+        <video width="700"
+        height="415" controls>
+            <source src={amiibos} type="video/mp4">
+            Amiibo
+          </video>
+    </div>
+</div>
+
+<style>
+
+</style>

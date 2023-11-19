@@ -1,0 +1,207 @@
+---
+import { Image } from "astro:assets";
+import NES from "../assets/NES.jpg";
+import gameCube from "../assets/gamecube.jpg";
+import NintendoDS from "../assets/nintendods.jpg";
+import Nintendo3DS from "../assets/nintendo3ds.jpg";
+import gameboyColor from "../assets/gameboycolor.jpg";
+import gameboyAdvance from "../assets/gameboyAdvance.jpg";
+import Wii from "../assets/wii.jpg";
+import Wiiu from "../assets/wiiu.jpeg";
+import Cswitch from "../assets/switch.jpg";
+import Audio1 from "../assets/audio1.mp3";
+
+interface Props {}
+
+const {} = Astro.props;
+---
+
+<div id="consolas" class="flex flex-col items-center w-full mx-auto">
+  <h1 class="text-2xl md:text-3xl font-bold text-center my-3">Consolas Icónicas</h1>
+  <div class="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={NES}
+        alt="Nintendo NES."
+      />
+      <a href="#!">
+        <div
+          class="flex flex-col items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">
+            Nintendo Entertainment System
+          </p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={gameCube}
+        alt="Nintendo gamecube."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Game Cube</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="w-full h-48 md:h-64 object-cover rounded-lg"
+        src={gameboyColor}
+        alt="Nintendo gameboycolor."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Gameboy Color</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={gameboyAdvance}
+        alt="Nintendo gameboyadvance."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Gameboy Advance</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={NintendoDS}
+        alt="Nintendo DS."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Nintendo DS</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={Nintendo3DS}
+        alt="Nintendo 3DS."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Nintendo 3DS</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={Wii}
+        alt="Nintendo Wii."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Wii</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={Wiiu}
+        alt="Nintendo WiiU."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Wii U</p>
+        </div>
+      </a>
+    </div>
+    <div
+      class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+    >
+      <Image
+        class="h-48 md:h-64 object-cover rounded-lg"
+        src={Cswitch}
+        alt="Nintendo Switch."
+      />
+      <a href="#!">
+        <div
+          class="flex items-center justify-center absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[rgba(0,0,0,0.4)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+        >
+          <p class="text-sm text-center font-semibold">Switch</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="mt-8">
+    <audio src={Audio1} preload="auto" controls></audio>
+  </div>
+  <div class="flex flex-col mt-8">
+    <p class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+    A continuación agrego un video de la linea del tiempo de las consolas
+    </p>
+    <div class="flex justify-center mt-8">
+      <iframe
+        width="100%"
+        height="415"
+        src="https://www.youtube.com/embed/nDrjKGZDmYA?si=GHfegEOuN-9LMzUr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>  
+  </div>
+</div>
+
+<style></style>

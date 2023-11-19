@@ -1,0 +1,18 @@
+---
+
+import Time from './Time.astro';
+import asCard from '../assets/as.svg';
+
+interface Props {
+	
+}
+
+const {  } = Astro.props;
+---
+
+<ol class="relative border-l border-gray-200 dark:border-gray-700">
+    <Time 
+    icon={<img src={asCard.src} width={asCard.width} height={asCard.height} alt="Un cohete en el espacio." />} 
+    title='Naipes Hanafuda' 
+    year="1889">Fusajiro Yamauchi comenzó fabricando los naipes japoneses "Hanafuda" (flor) en Kyoto.</Time>
+</ol>

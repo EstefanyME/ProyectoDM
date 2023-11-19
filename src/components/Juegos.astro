@@ -1,0 +1,134 @@
+---
+import kirby from '../assets/kirbydream.jpg';
+import marioBros from '../assets/mariobrosu.jpeg';
+import zelda from '../assets/zelda.jpg';
+import pokemon from '../assets/pokemon.jpeg';
+import ssb from '../assets/ssb.jpg';
+import mariokart from '../assets/mariokart.jpg';
+import AC from '../assets/animalcrossing.jpeg';
+import splatoon from '../assets/splatoon.jpeg';
+import metroid from '../assets/metroid.jpeg';
+import fireem from '../assets/fireemblems.jpg';
+import donkey from '../assets/donkeykong.jpg';
+import pikmin from '../assets/pikmin.jpg';
+import xenoblade from '../assets/xenoblade.jpg';
+import eartbound from '../assets/eartbound.jpg';
+import { Image } from 'astro:assets';
+
+interface Props {
+	
+}
+
+const {  } = Astro.props;
+---
+<div id="juegos" class="flex flex-col items-center">
+    <h1 class="text-2xl font-bold text-center my-8">Juegos representativos</h1>
+    <div class="w-3/4">
+        <div class="gap-8 mb-8 rounded-lg shadow-sm dark:border-gray-700 sm:flex sm:flex-wrap md:mb-12 xl:grid xl:grid-cols-2">
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={marioBros} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Super Mario Bros</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">El juego que presentó a Mario y Luigi, y que es uno de los títulos más icónicos de todos los tiempos.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={zelda} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">The Legend of Zelda</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Esta serie de juegos de aventuras ha sido fundamental para Nintendo y ha dado lugar a títulos legendarios como "The Legend of Zelda: Ocarina of Time" y "The Legend of Zelda: Breath of the Wild"</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={pokemon} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pokémon</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">La franquicia de juegos de rol de Pokémon ha sido un fenómeno global desde su lanzamiento en la década de 1990.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={ssb} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Super Smash Bros</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">La serie de juegos de lucha que reúne a personajes de diferentes franquicias de Nintendo y otras compañías.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={mariokart} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mario Kart</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">La serie de juegos de carreras arcade que presenta a los personajes de Mario y ha sido un éxito continuo.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={AC} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Animal Crossing</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Una franquicia de juegos de simulación de vida en la que los jugadores pueden vivir en un pueblo de animales antropomórficos.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={splatoon} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Splatoon</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Un juego de disparos en tercera persona que ha sido un éxito reciente para Nintendo.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={metroid} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Metroid</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Una serie de juegos de acción y aventuras que presentan a la icónica heroína Samus Aran.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={kirby} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kirby</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Los juegos protagonizados por Kirby, una adorable bola rosa, son conocidos por su jugabilidad accesible y su encanto.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={fireem} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Fire Emblem</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">La serie de juegos de rol tácticos que ha ganado popularidad en todo el mundo.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={donkey} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Donkey Kong</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">El juego original de Donkey Kong, así como los juegos posteriores como "Donkey Kong Country," son clásicos de Nintendo.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={pikmin} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pikmin</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Una serie de juegos de estrategia en tiempo real que presentan a los adorables Pikmin.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={xenoblade} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Xenoblade Chronicles</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">n juego de rol japonés que ha sido elogiado por su historia y jugabilidad.</p>
+                </div>
+            </a>
+            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-indigo-950 dark:hover:bg-gray-700">
+                <Image class="object-cover w-full h-full rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg" src={eartbound} alt=""/>
+                <div class="flex flex-col justify-between p-4 leading-normal">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EarthBound</h5>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Un juego de rol que ha desarrollado una base de fanáticos dedicados.</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    
+</div>
+
+<style>
+
+</style>
